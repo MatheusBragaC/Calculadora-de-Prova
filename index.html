@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Prova Bimestral</title>
+</head>
+<body>
+    <header>
+        <h1>Prova Otávio</h1>
+    </header>
+    <main>    
+        <section class="geral">
+            <div id="cabecalho">
+                <h2>Prova 2° Bimestre</h2>
+                <p><b>Matheus Braga de Carvalho</b></p>
+                <ul>
+                    <li>Turma: CC1Mb</li>
+                    <li>1° Semestre</li>
+                    <li>Data: 04/06/24</li>
+                </ul>
+            </div>
+            <form id="formulario">
+                <table>
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="matricula">Matrícula:</label></td>
+                        <td><input type="text" id="matricula" name="matricula" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="notaum">1° Nota:</label></td>
+                        <td><input type="number" id="notaum" name="notaum" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="notadois">2° Nota:</label></td>
+                        <td><input type="number" id="notadois" name="notadois" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit">Registrar</button></td>
+                    </tr>
+                </table>
+            </form>
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Matrícula</th>
+                        <th>1° Nota</th>
+                        <th>2° Nota</th>
+                        <th>Média de notas</th>
+                        <th>Decisão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <button id="limparTabela">Limpar Tabela</button>
+        </section>
+    </main> 
+    <script src="index.js"></script>
+</body>
+<footer>
+    <img src="uvv.png" alt="uvv"> 
+    <p><b>UNIVERSIDADE VILA VELHA</b></p> 
+    <img src="UVV.png" alt="uvv">
+</footer>
+
+</html>
