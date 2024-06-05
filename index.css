@@ -49,6 +49,11 @@ table{
     border: 2px solid gray;
 }
 
+#tabela, th{
+    background-color: darkslateblue;
+
+}
+
 th, td{
     border: 2px solid gray;
     text-align: left;
