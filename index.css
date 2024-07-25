@@ -21,8 +21,13 @@ main{
 }
 
 #cabecalho{
-    margin-left: 105px;
     font-size: 20px;
+    margin-left: 60px;
+}
+
+#cabecalho h2{
+    margin-left: 20px;
+
 }
 
 label{
@@ -60,12 +65,17 @@ th, td{
     padding: 8px;
 }
 
+form#formulario button[type="submit"] {
+    margin-left: 140px;
+}
+
 button{
     padding: 8px 20px;
     background-color: gray;
     color: #fff;
     border-radius: 5px;
-    margin-left: 160px;
+    margin-left: 130px;
+    cursor: pointer;
 }
 
 button:hover{
